@@ -9,6 +9,7 @@ public class GitRestController {
 	
 	@GetMapping
 	public String sayHello() {
+		System.out.println("Added logging for rest endpoint");
 		return "Hello GitHub from Eclipse";
 	}
 
