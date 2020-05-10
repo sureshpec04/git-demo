@@ -17,7 +17,7 @@ public class GitRestController {
 	@GetMapping("/employee/{id")
 	public String findEmployeeById(@PathVariable(value = "id") final String id) {
 		
-		return "Found employee by id: " + id;
+		return "Found more employees with the id: " + id;
 	}
 
 }
